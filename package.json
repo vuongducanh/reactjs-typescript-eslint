@@ -28,7 +28,7 @@
         "postinstall": "husky install"
     },
     "lint-staged": {
-        "*.ts": [
+        "**/*.{js,jsx,tsx,ts,less,md,json}": [
           "npm run lint",
           "npm run lint:format",
           "git add ."

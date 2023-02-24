@@ -28,7 +28,11 @@
         "postinstall": "husky install"
     },
     "lint-staged": {
-        "*.tsx": "yarn lint"
+        "*.tsx": [
+          "npm run lint",
+          "npm run lint:format",
+          "git add ."
+        ]
     },
     "eslintConfig": {
         "extends": [

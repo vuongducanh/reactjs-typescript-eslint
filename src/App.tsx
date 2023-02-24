@@ -13,7 +13,7 @@ function App() {
 
   const a = 'ddd';
   const a = 'ddd';
-  const a = 'ddd';
+  const c = 'ddd';
 
   const setActiveItem = () => {
     setActive(true);

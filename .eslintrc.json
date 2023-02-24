@@ -20,7 +20,6 @@
   },
   "plugins": ["react"],
   "rules": {
-    "eqeqeq": "warn",
-    "strict": "off"
+    // "no-unused-vars": ["error", { "vars": "all" }]
   }
 }

@@ -24,7 +24,15 @@
         "eject": "react-scripts eject",
         "lint": "eslint .",
         "lint:fix": "eslint --fix",
-        "lint:format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+        "lint:format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+        "postinstall": "husky install"
+    },
+    "lint-staged": {
+        "*.ts": [
+          "npm run lint",
+          "npm run lint:format",
+          "git add ."
+        ]
     },
     "eslintConfig": {
         "extends": [
@@ -54,7 +62,7 @@
         "eslint-plugin-prettier": "^4.2.1",
         "eslint-plugin-promise": "^6.0.0",
         "eslint-plugin-react": "^7.32.2",
-        "lint-staged": ">=10",
+        "lint-staged": "^13.1.2",
         "prettier": "^2.8.4"
     }
 }

@@ -20,8 +20,6 @@
   },
   "plugins": ["react"],
   "rules": {
-    // "no-unused-vars": ["error", { "vars": "all" }]
-    // "max-len": ["WARNING", 100, 2],
-    "no-console": ["warn", {"allow": ["warn", "error"]}]
+    "eqeqeq": "warn"
   }
 }

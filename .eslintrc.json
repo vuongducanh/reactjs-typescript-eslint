@@ -20,6 +20,7 @@
   },
   "plugins": ["react"],
   "rules": {
-    "eqeqeq": "warn"
+    "eqeqeq": "warn",
+    "strict": "off"
   }
 }

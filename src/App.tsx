@@ -15,6 +15,8 @@ function App() {
 
   const b = 1;
 
+  const c = 1;
+
   const setActiveItem = () => {
     setActive(true);
   };

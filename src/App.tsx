@@ -9,9 +9,9 @@ interface TypeTest {
 
 function App() {
   const [active, setActive] = useState<boolean>(false);
-  const [value, setValue] = useState<TypeTest>({ name: 'aaa', id: 123 })
+  const [value, setValue] = useState<TypeTest>({ name: 'aaa', id: 123 });
 
-  
+  const a = 1;
 
   const setActiveItem = () => {
     setActive(true);

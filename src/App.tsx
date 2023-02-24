@@ -12,8 +12,8 @@ function App() {
   const [value, setValue] = useState<TypeTest>({ name: 'aaa', id: 123 });
 
   const a = 'ddd';
-  const b = 'ddd';
-  const c = 'ddd';
+  const a = 'ddd';
+  const v = 'ddd';
 
   const setActiveItem = () => {
     setActive(true);
